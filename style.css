@@ -1,0 +1,399 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0px;
+    background-color: #ebf5eb;  
+    
+}
+
+header {	
+	padding-top: 10px;
+	text-align: center;
+	color:#176e4f;
+	margin-top: 0px;
+	background-color: #ebf5eb;
+}
+
+header ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0px;
+  width: 14%;
+  background-color: #d3e6c8;
+  height: 37%; 
+  position: fixed; 
+  overflow: auto;
+  margin-top: 175px; 
+}
+
+header li a {
+  display: block;
+  color: #176e4f;
+  padding: 16px 64px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #176e4f;
+  color: white;
+}
+
+#contact ul{
+	justify-content: center;
+	height: 100px;
+}
+
+#contact a {
+  text-decoration: none;
+  justify-content: center;
+  color: #176e4f;
+
+}
+#contact a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+header .fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+section {
+	
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+.sectionnames {
+	color:#554970;
+	padding-bottom: 30px;
+	padding-top: 90px;
+}
+
+#bio {
+	justify-content: center;
+	align-items: center;
+	align-content: center;	
+	text-align: center;
+	color: grey;
+	padding-bottom: 20px;	
+}
+
+#bio .profile-img {
+    width: 225px;
+    height: 225px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    display: flex;
+    float: left;
+   	margin-right: 45px;
+   	border-radius: 70%;
+   	border: 3px solid #d3e6c8;
+   	border-width: 20px;
+   	
+}
+
+#bio a {
+	width: 70px;
+	height: 10px;
+	float: left;	
+	text-decoration: none;
+	color: #554970;
+}
+
+#bio h2 {
+	color: #554970;
+	justify-content: center;
+}
+
+#bio h4 {
+	width: 1100px;
+	justify-content: center;
+	text-align: left;
+	color: grey;
+	margin-right: 100px;
+	margin-left: 40px;
+}
+#bio .sectionnames{
+	color:#554970;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+h2 {
+	color: grey;
+	text-align: center;
+	justify-content: center;
+}
+
+#projs .name  {
+	color:#176e4f;
+}
+#projs .contribution  {
+	text-align: center;
+}
+#projs ul{
+	margin: 0px;
+}
+
+#projs h3 {
+	color: grey;
+	text-align: center;
+}
+#projs h4 {
+	color: grey;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+#projs h5 {
+	color: grey;
+	text-align: center;
+}
+
+.logo{	
+	margin-top: 20px;
+	width: 220px;
+}
+.smalllogo{
+	margin-top: 10px;
+	width: 50px;
+	border-radius: 50%;	
+}
+
+#projs .headings{
+	justify-content: center;
+	text-align: center;
+	color: #176e4f;
+	margin-top: 15px;
+}
+
+#projs .links {
+  color: #554970;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+  align-items: center;
+  margin: 5px;
+  text-decoration: none;
+}
+
+
+#projs .links li {
+  display: inline-block;
+}
+
+#projs .links a {
+  text-decoration: none;
+  padding: 4px;
+}
+#projs .links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#exp h2 {
+	color: #554970;
+	justify-content: center;
+	column-span: 2;
+}
+#exp h3 {
+	color:#176e4f;
+	text-align: center;
+}
+#exp h4 {
+	color:grey;
+	text-align: left;
+	margin: 5px;
+}
+#exp h5 {
+	color:grey;
+	text-align: center;
+	
+}
+
+
+.wrapper {
+  display: flex;
+  margin-right: 180px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+
+}
+
+ .column1, .column2 {
+  flex: 35%;
+  margin: 10px;
+  height: 300px;
+  width: 40%;
+
+}
+ #exp .headings{
+	justify-content: center;
+	text-align: center;
+	color: #176e4f;
+	margin-top: 15px;
+}
+
+#exp .intellogo {
+	width: 230px;
+	margin: 20px;
+	margin-top: 20px;
+}
+
+#exp .welchlogo {
+	border-radius: 50%;
+	width: 200px;
+	margin-bottom: 15px;
+}
+
+#campus .contribution  {
+	text-align: center;
+}
+
+#campus h2 {
+	color: #554970;
+	justify-content: center;
+	column-span: 2;
+}
+#campus h3 {
+	color:grey;
+	text-align: center;
+}
+#campus h4 {
+	color:grey;
+	text-align: left;
+	margin: 5px;
+}
+#campus h5 {
+	color:grey;
+	text-align: left;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+#campus .links {
+	justify-content: center;
+}
+
+#campus .links a {
+  text-decoration: none;
+  padding: 4px;
+  justify-content: center;
+}
+#campus .links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#campus .links li {
+  display: inline-block;
+  
+}
+ #campus .headings{
+	justify-content: center;
+	text-align: center;
+	color: #176e4f;
+	margin-top: 15px;
+}
+#campus h3 {
+	color:#176e4f;
+}
+#campus .subtitle{
+	color: grey;
+}
+
+
+.column {
+  float: left;
+  width: 15%;
+  margin-left: 135px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+#projs .flip-box {
+  background-color: #d3e6c8;
+  width: 300px;
+  height: 470px;
+  align-self: inline;
+  margin-bottom: 10px;
+  margin-left: 85px;
+  display: inline-block;
+}
+
+.flip-box {
+  background-color: #d3e6c8;
+  width: 330px;
+  height: 390px;
+  align-self: inline;
+  margin-bottom: 20px;
+  margin-left: 85px;
+  display: inline-block;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #d3e6c8;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #d3e6c8;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
