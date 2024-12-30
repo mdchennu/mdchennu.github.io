@@ -3,10 +3,21 @@
     --backgroundHexCode: #f7f7f7;
     --greyHexCode: #6E6E6E;
     --darkGreenBackgroundHexCode: #06402b;
-    /* --darkGreenBackgroundHexCode: black; */
-    --nodeFontSize: 30px;
-
+    --nodeFontSize: 25px;      /* 30px * 0.9 */
+    --headerFontSize: 37.8px;   /* 42px * 0.9 */
+    --bigItalicsFontSize: 19.8px; /* 22px * 0.9 */
+    --smallItalicsFontSize: 13.5px; /* 15px * 0.9 */
+    --tinyFontSize: 13.5px;      /* 15px * 0.9 */
+    --instructionFontSize: 28.8px; /* 32px * 0.9 */
+    --excerptFontSize: 16.2px;      /* 18px * 0.9 */
+    --captionFontSize: 10.8px;   /* 12px * 0.9 */
+    --introFontSize: 14.5px;
   }
+
+.caption {
+    font-size: var(--captionFontSize);
+}
+
 
   body {
     margin: 0;
@@ -15,17 +26,15 @@
     justify-content: center;
     align-items: center;
     background-image: url('green-bg.jpg');
-    /* background: var(--darkGreenBackgroundHexCode); */
 }
 
 #paper {
-    width: 825px;
+    width: 742.5px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
     z-index: -1;
-    /* animation: tilt 1s steps(2) infinite; */
 }
 
 /* @keyframes tilt {
@@ -59,6 +68,7 @@
     display: none;
     opacity: 0;
     transition: opacity 2s ease;
+    width: 45%;
 }
 
 .credits-btn {
@@ -74,18 +84,18 @@
 }
 
 h1 {
-    font-size: 42px;
+    font-size: var(--headerFontSize);
     font-family: "Grape Nuts", serif;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
 }
 
 h2 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 42px;
+    font-size: var(--headerFontSize);
     font-family: "Grape Nuts", serif;
 }
 /**
@@ -109,11 +119,12 @@ h2 {
 }
 
 .splash-content {
-    max-width: 550px;
+    width: 480px;
+    height: 60%;
+    padding: 70px;
     text-align: center;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 100px;
     box-shadow: 3px 5px 2px;
     opacity: 0;
     transition: opacity 3s ease;
@@ -125,7 +136,7 @@ h2 {
     position: absolute;
     bottom: 0px;
     color: white;
-    font-size: 15px;
+    font-size: var(--tinyFontSize);
 }
 
 .caption {
@@ -141,6 +152,7 @@ button {
     margin-top: 10px;
     transform: scale(1.5); /* Makes the button 2x larger */
     font-family: "Ovo", serif;
+    font-size: var(--tinyFontSize);
 }
 
 button:hover {
@@ -152,9 +164,8 @@ button:hover {
 .explore-btn {
     color: white;
     font-weight: bold;
-    font-size: 15px;
     border-color: white;
-    margin-top: 40px;
+    margin-top: 36px;
 
 }
 .explore-btn:hover {
@@ -175,7 +186,7 @@ button:hover {
 
 .word-node {
     position: absolute;
-    padding: 10px 20px;
+    padding: 9px 18px;
     border: 1px solid var(--greyHexCode);
     color: var(--greyHexCode);
     cursor: pointer;
@@ -193,13 +204,11 @@ button:hover {
 
 #instruction {
     position: absolute;
-    /* left: 320px; */
-    top: -60px;
+    top: -30px;
     left: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
-
-    font-size: 32px;
+    font-size: var(--instructionFontSize);
     transition: opacity 1s;
     opacity: 0;
     display: block;
@@ -220,6 +229,14 @@ button:hover {
     margin-left: auto;          /* Automatically adds left margin */
     margin-right: auto;         /* Automatically adds right margin */
     margin-top: 40px;
+    color: white;
+    border-color: white;
+}
+
+.your-turn-btn:hover {
+    background: white;
+    border-color: white;
+    color: #3b614a;
 }
 
 .word-node.newVersion {
@@ -238,7 +255,7 @@ button:hover {
     background-color: var(--backgroundHexCode);
     opacity: 1;
     transition: border-width 7s,
-                border-color 7s ease,
+                border-color 3s ease,
                 color 0.5s ease,
                 left 3s ease-in-out,
                 top 3s ease-in-out,
@@ -260,8 +277,7 @@ button:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* max-height: 90vh; */
-    /* overflow-y: auto; */
+
     z-index: 1000;
     border-radius: 10px;
     transition: opacity 2s ease;
@@ -269,7 +285,7 @@ button:hover {
 }
 
 .excerpt-content {
-    width: 750px;
+    width: 675px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -302,16 +318,17 @@ button:hover {
 
 
 .bigItalics {
-    font-size: 22px;
+    font-size: var(--bigItalicsFontSize);
 }
 
 .smallItalics {
-    font-size: 15px;
+    font-size: var(--smallItalicsFontSize);
 }
 
 .splash-content p, ol {
     color: white;
     font-family: "Ovo", serif;
+    font-size: var(--introFontSize);
 }
 
 ol {
@@ -325,10 +342,12 @@ ol {
   
 .excerpt p {
     line-height: 1.1;
-    font-size: 18px;
+    font-size: var(--excerptFontSize);
     text-align: left;
-    /* column-count: 2;
-    column-gap: 20px; */
+}
+
+.conclusion-screen p {
+    color: white;
 }
 
 p {
@@ -344,8 +363,8 @@ p {
     display: flex; /* Display images side by side */
     justify-content: center; /* Center the images horizontally */
     gap: 10px; /* Space between images */
-    margin-bottom: 20px; /* Space between images and text */
-    margin-top: 20px;
+    margin-bottom: 40px; /* Space between images and text */
+    margin-top: 40px;
   }
 
   /* Style for the images */
@@ -367,6 +386,6 @@ p {
   }
 
   #flowerGif {
-    width: 200px;
-    margin-bottom: 10px;
-  }
+    width: 180px;
+    margin-bottom: 9px;
+}

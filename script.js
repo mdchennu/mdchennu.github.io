@@ -7,7 +7,7 @@
  */
 const words = {
     Authenticity: {
-        startX: 100, startY: 45,
+        startX: 140, startY: 65,
         x: 370, y: 70,
         connections: [],
         newConnections: ['Love', 'Family'],
@@ -15,15 +15,15 @@ const words = {
         story: ["<p>Anytime I look at a sweater that catches my eye, I hear:<br> <i>&ldquo;That would look nice without the frills.&rdquo;<br> &ldquo;This wouldn&rsquo;t go with your vibe.&rdquo;<br> &ldquo;Are you sure about this?&rdquo;</i></p> <p>When I go to a restaurant, and see the octopus dish that excites me:<br> <i>&ldquo;Since when do you eat that?&rdquo;<br> &ldquo;Do you like the texture?&rdquo;<br> &ldquo;We don&rsquo;t eat that kind of stuff.&rdquo;</i></p> <p>When I make a decision, this is what I hear:<br><i>&ldquo;I would be careful of the tax.&rdquo; <br> &ldquo;I would make sure your apartment is in Manhattan.&rdquo; <br> &ldquo;New York is too busy, too much for me.&rdquo;</i></p> <p>By the time I sort through all those responses, I can&rsquo;t really hear, see, or picture what I would do.</p>", "<p>So when I decide to read at my first open mic, those voices are roaring. On the walk to the little building, past the classrooms, onto the stage, and screaming into my ear as I stand on the podium, stare into a spotlight, and drench my papers in sweat.</p> <p>But I have no choice but to begin. I have four vignettes, all I need to do is read them aloud, and then I can sit down and overthink why I even followed this ridiculous thought in my head.</p> <p>&ldquo;A man busks on the street. <i class=\"bigItalics\">Why are you doing this?</i> He wears a black shirt and a red baseball cap.. <i class=\"bigItalics\">Again, why are we up here?</i> Amongst throngs of people passing by, a child, no older than ten, sits criss-crossed on the ground&#8230;.&rdquo; <i class=\"bigItalics\">You are sweating so much.</i></p> <p>I finish the first vignette, barely hearing my voice over the chorus of my thoughts. My hands grip my notes.</p> <p>&ldquo;Three friends huddle together on a balcony. <i>This is pointless.</i> They chatter back and forth, too absorbed in each other&rsquo;s company to be bothered by the heavy rain. <i>Is anyone even listening to you?</i> Their faces glow next to the single candle&#8230;&rdquo; <i>Your voice is wobbly.</i></p> <p>I finish the second vignette, my voice full with others, my mind still crowded.</p>", "<p>&ldquo;A family of three sits on a ledge. <i class=\"smallItalics\">You can&rsquo;t even see anyone.</i> They share a mixture of nuts and puffed rice from a newspaper wrapped in the shape of a cone. <i class=\"smallItalics\">This is like you talking into a void, a dark ugly void&#8230;</i>until only the newspaper is left.&rdquo;</p> <p>But it isn&rsquo;t a void, because as I finish the third little story, I look out into the darkness. My eyes adjust as I see a young woman, sitting in the back of the room. I can&rsquo;t see more than the light against her eyes, but she is looking straight at me, gaze unwavering. A cool warmth fills my body, starting from my head, falling into my shoulders, drying my palms, soothing my fingers.</p> <p>I begin the last vignette:</p> <p>&ldquo;A little girl trots down the street with her dad. Her hand is stretched out, brushing through pots of daffodils, roses, and little chrysanthemums lining the sidewalks&#8230;As they walk away, she turns around, waving goodbye and smiling over her shoulder.&rdquo;</p> <p>As I read, all the voices have melted away. It is only me: singular, clear, and authentic. And what fills the silence, as I finish my last vignette, is applause.</p>", "<p>When the reading had finished, the young woman came over to say hello. Her eyes were full of warmth as she squeezed my hand. She had resonated with what I had written. That squeeze served as a realization.</p> <p>Those voices I had picked up along the way from my loved ones and friends--I had believed they were protecting me, keeping me safe. But those voices were also guardrails, an internalized form of control, keeping me from opportunities, environments where I felt seen, ideas and projects where I could express myself. Having the courage to hop over those guardrails, smash them apart, or maybe quietly ignore them, led to me following my own voice, my gut. And following my instinct resonated with others. The proof of that was those girl&rsquo;s hands in mine, right in front of me. <br> </p>"]
     },
     Shame: {
-        startX: 100, startY: 110,
-        x: 125, y: 445,
+        startX: 140, startY: 120,
+        x: 145, y: 445,
         connections: ['Family'],
         newConnections: [],
         isNewVersion: false,
         story: ["<p>It&rsquo;s going to be a muscle you unintentionally exercise.<br> It&rsquo;s going to be strong. <br> It&rsquo;s going to eat you up from the inside. <br> It&rsquo;s going to blame you.<br> It&rsquo;s going to be a block of you. <br> It&rsquo;s going to be deep within you, blend into your blood and sinew.<br> It&rsquo;s going to be a cubicle away from you and her, you and them, and you and him. <br> It&rsquo;s going to act like your helmet, your knee pads, your seatbelt.<br> It&rsquo;s going to stain your cheeks, stuff your nose, swell your eyes. <br> It&rsquo;s going to have you asking for bait, for a way to fish it out. <br> It&rsquo;s going to be hiding within you while hiding you.</p>", "<p>It&rsquo;s going to be your reflection, your eyes narrowing into the bulging line of fat from the base of your bra to the top of your jeans, the hairs on your chin, the cracks on your feet. <br> It&rsquo;s going to tug, over and over. <br> You are going to tug, over and over. <br> It&rsquo;s going to fall out of you one Wednesday when you walk in the rain.<br> It&rsquo;s going to be wet and hard, a block of flesh.<br> It&rsquo;s going to be engraved with &ldquo;my body&rdquo; &ldquo;my sexuality&rdquo; &ldquo;my hairy chin&rdquo; &ldquo;my hip dips&rdquo; <br> But as you hold it, as you look closely, you&rsquo;ll be surprised:<br> Because it&rsquo;s not your handwriting. <br> Because it&rsquo;s not your block. <br> Because it&rsquo;s not your blood and sinew.<br> Because next time you feel it, it&rsquo;s not going to consume you. <br> It is a cubicle, a muscle, a tug, a tsunami.<br> But it is no longer yours. <br> </p>"]
     },
     Power: {
-        startX: 100, startY: 175,
+        startX: 140, startY: 175,
         x: 670, y: 160,
         newName: 'Strength',
         connections: ['Fear'],
@@ -32,15 +32,15 @@ const words = {
         story: ["<p>It had been two years of me questioning my friendship with two of my closest college friends. Radhika and Ellen. They were both Data Science and Political Science majors, and they both attended the same activities, clubs. I was close to Radhika, more than Ellen, though we had very little in common on the surface. Whenever we got coffee or cooked pizzas together, I felt a sense of safety, of close knit comfort, and a lack of judgement.</p> <p>Then in senior year, the last break of fall term, I found out they had planned a trip together without me after seeing their locations in the same place. It led to a boatload of questioning, of overthinking:</p> <p><i>Does Radhika just see me as a nerd? Why would they exclude me from a senior trip? Had I done something to annoy them? Was I just overthinking this whole thing when it really wasn&rsquo;t about me? And worst of all, if I ask Radhika, talk to her about how the exclusion made me feel, how it hurt, would she make fun of me?</i></p>", "<p>There was no prior evidence that any of the questions above were rooted in truth, but I had never told someone I cared about that they had done something to hurt me. Whenever I had tried to address my emotions with family, the conversation would be mocked as &lsquo;therapy talk&rsquo; or brushed off. In other relationships, I would remain passive aggressive and silent until the heat of the hurt had passed.</p> <p>But it had been two years of my questioning, and four years of a really strong friendship that I really cared about. So I sat outside the light wash business school on a hill in Berkeley. My voice wobbled, and my shoulders shivered as I hunched over the wrought metal chairs across from Radhika. It was cold and gray, all the trees bare in mid-November.</p> <p>I don&rsquo;t remember what I said. But I do remember my voice cracking. I talked for a long time. I remember something real and raw (that felt gross) leaking out of me, bubbling out of my throat and down my chin. I remember the feeling of talking about my hurt, how uncomfortable it felt revealing that in public, and acknowledging my fears in front of Radhika. It was as if I was holding a ceramic pot of who I was, exposing the jagged edges, the cracks, and the spots where one tap could break me apart.</p>", "<p>I also remember Radhika&rsquo;s expression. I remember her forehead wrinkled, her mouth turned down, her eyebrows raised, poised in defense. But I also remember that solid wall of her brown eyes softening as we spoke, softening as she responded, explained her perspective. And as we apologized to each other, it was as if she was holding up her own pot, shining a light on her own cracks, her shattering.</p> <p>Walking home, I didn&rsquo;t feel weak and vulnerable, but vulnerable and strong. Radhika and I had talked, conflicted and continued to be there for each other. I felt closer to her than before. I trusted her, and she trusted me too. And I trusted myself more for voicing my emotions.</p> <p>A few years later, I started asking new friends, sometimes even random people, intense questions: &ldquo;What is your biggest insecurity?&rdquo; It usually garnered Radhika's initial shock. But I wasn&rsquo;t looking for the shock. I was searching for their vulnerability, and their strength in sharing that vulnerability. To acknowledge that despite it being terrifying to show, we all have one thing in common: our cracks. </p>"]
     },
     Courage: {
-        startX: 100, startY: 240,
-        x: 740, y: 395,
+        startX: 140, startY: 230,
+        x: 725, y: 395,
         connections: [],
         newConnections: ['Authenticity', 'Sexuality', 'Fear'],
         isNewVersion: false,
         story: []
     },
     Fear: {
-        startX: 100, startY: 305,
+        startX: 140, startY: 285,
         x: 140, y: 220,
         connections: ['Authenticity', 'Shame'],
         newConnections: ['Shame'],
@@ -48,7 +48,7 @@ const words = {
         story: []
     },
     Family: {
-        startX: 100, startY: 370,
+        startX: 140, startY: 340,
         x: 395, y: 230,
         newName: 'Community',
         connections: ['Courage', 'Faith', 'Love', 'Power'],
@@ -57,15 +57,15 @@ const words = {
         story: ["<p>My support system was a bungee jump, one long rope pulling me up from the left, another pulling me up from the right. Mummy and Daddy. When a friend had lied to me at school, when I couldn&rsquo;t fall asleep before a bio test, when I was crying and wobbling across campus in a horrid black boot as a freshman, it was my parents that pulled me up, that kept me afloat.</p> <p>Then, I became good friends with someone they didn&rsquo;t approve of. Whenever we would get coffee or hangout, they would be stone cold when I returned home.</p> <p>Then, I joined my full time job and hated it. My parents and I bickered constantly about how I couldn&rsquo;t be grateful for the life they worked so hard to provide.</p> <p>Then, I came out to my parents.</p> <p>Those thick ropes of support, already tense, already burdened from the weight of our differences, snapped. And I was free falling, having lost my foundation.</p>", "<p>There were long nights where I couldn&rsquo;t sleep, my body shaking. There were mornings where I wouldn&rsquo;t be able to get out of bed, the fear of being abandoned weighing me down. There was incessant crying, a hollow feel to my days, and an anxiety that wound me tight.</p> <p>On the nights I couldn&rsquo;t sleep, my partner would Facetime me and lay awake on the call. When I would feel overwhelmed about my job, my childhood best friend sent me a list of grad schools to apply to. A coworker I had met only months ago slept over, to soothe my uncontrollable shaking. There were some days, my mom would just sit on video call with me throughout the day, just to be there. On the toughest mornings, that friend my parents didn&rsquo;t approve of would call me to ensure that I brushed my teeth, and ate something.</p> <p>On the Fourth of July, after a party, after my partner left to fly back to school, my hands wouldn&rsquo;t stop shaking, no matter how much I breathed or walked or drank water. I called the first person I could think of, a coworker I had met six months ago when I moved to Seattle. She was at a friend&rsquo;s apartment nearby, so I walked over. When she came downstairs, I broke into tears. She hugged me as I bawled into her jacket. Snot dripped down my face, my tears stained her red top. We were sitting in a tiny lobby, people filing in and out. I cried and cried and cried. She held me close, squeezing tighter when the sobs racked through my body.</p>", "<p>When I walked home that night, hands still and heart steady, the streets were quiet. I could see the lights of the tall buildings in the distance. The air was warm, but the slight breeze against my face felt cool. I walked slowly, stopping to look at the circular patterns of leaves, taking pictures of the pansy and zinnia flowers on the sidewalks. I realized: I had stopped falling.</p> <p>I had been caught by a net of support, weaved together by new friends who sensed something was wrong, childhood friends who supported me from miles away, college friends reminding me of memories, my partner who was holding me as best as they could from where they were, and even my parents in anyway they could manage. All those people who were a part of, but also beyond my nuclear family.</p> <p>That net broke my belief that deep, compassionate, and unconditional love only came from family. Love could, and would, come from and be given to my community of relationships held together by shared values and compassion grown rather than granted. Family was no longer my only root. Instead, I was a part of a garden of people who had created a soft place to land. </p>"]
     },
     Love: {
-        startX: 100, startY: 435,
-        x: 265, y: 400,
+        startX: 140, startY: 395,
+        x: 275, y: 400,
         connections: [],
         newConnections: ['Family', 'Faith'],
         isNewVersion: false,
         story: []
     },
     Sexuality: {
-        startX: 100, startY: 500,
+        startX: 140, startY: 450,
         x: 510, y: 510,
         connections: ['Shame', 'Family', 'Fear'],
         newConnections: ['Love'],
@@ -73,7 +73,7 @@ const words = {
         story: ["<p>It started out as a wall, one that I wasn&rsquo;t aware of. One that I wouldn&rsquo;t dare to cross.</p> <p>But sometimes I would stare at my friend&rsquo;s hair, long and straight, for far too long. My heart would race and my chest would tighten as I imagined how it would feel between my fingers. The wall became a locked door. I would catch that same friend leaning into me, a little too close and a little too long, while we were figuring out a puzzle, or picnicking on the grass. The lock would turn ever so slightly. I could feel it within me.</p> <p>The door unlocked, finally, one night at 3 am, clustered in a cabin without Internet. The cabin was barely bigger than a room, and really warm. There was a red phone, a great big window with access to evergreen trees, big and strong and covered in snow.</p> <p>Despite the view, I couldn&rsquo;t stop looking at my friend laughing. We had only known each other for about a year, but I felt particularly close to her. I was always nervous to say the right thing, felt giddy whenever she laughed at what I said. I was so aware of where she was in a space, how close she was to me.</p> <p>It clicked then.</p> <p>The door swung wide open, and fear, darkness, and shame tumbled in. What would my family think? Was I disgusting? Was this a phase? My thoughts roiled and coiled inside me so I turned around to find that door, to slam it shut and lock it down. But it had disappeared.</p>", "<p>I went on a Tinder date with a guy who was handsome and tall, but quite strange. He twirled me around, asked for some Snapchat score, and self-named himself &lsquo;King Calvin.&rsquo; He was handsome and tall, but weird. I dated another boy in college for two years. He was nice and kind and independent and caring and intelligent. We got coffee, cuddled at night, and studied together. But I wasn&rsquo;t really eager to introduce him to my friends. Nothing was visibly wrong, and I would go through all the motions of being a good girlfriend. But it felt more like I was playing a part, copying what I saw around me. The door that had disappeared continued to live within me, and so did the shame, the fear, the uncertainty that it revealed. And my boyfriend became the ideal distraction, the shield to that shame, the antidote to my fear of abandonment.</p> <p>At some point, I realized that I couldn&rsquo;t picture us dating post-graduation. We just didn&rsquo;t work. But I still couldn&rsquo;t navigate the fear, or even recognize that I was feeling shame. By graduation, I decided to break up with my boyfriend, and told myself that I would instead find a man that I could be with in the new city I was moving to, so that I didn&rsquo;t need to come out to my parents.</p>", "<p>But then I found myself at a coffee shop in front of some person who had just joined the club I was in. Over monthly coffee, asking many questions, reading dumb horoscopes, we had built a steady, deep, and fun friendship. For the first time, I felt unburdened by my sexuality, and ready to acknowledge it. Around them, I didn&rsquo;t feel like I had to change who I was to be queer, meet a stereotypical look, or act unnatural.</p> <p>Three years later, the fear and shame exist from time to time, but they float within a bubble of joy. One that I feel expanding as my partner and I laugh while trying to decompress and roll up my mattress in a plastic bag. One that bumps against my chest when I&rsquo;m at a party and someone says something dumb or smart or funny and I look up to meet my partner&rsquo;s eyes for a quick second. One that holds as steady as my breathing when I fall asleep on their stomach in a sunny patch of grass.</p> <p>The bubble has threatened to pop, but only once, when I told my parents about my sexuality. I answered so many questions, saw so much fear in their eyes, watched my mother cry, and cry, and cry again. But instead of popping it expanded, buoyed by my hope and faith, fueled by my partner&rsquo;s care and consistency, unburdened by my relief of no longer trying to live two lives, of being honest with myself and my family, to hold my parents&rsquo; fear and my uncertainty.</p> <p>And thus, my wall became a door revealing darkness from which emerged a bubble. And now that bubble is a dream. One where I envision a round table with my partner and my family, all sharing a meal of rice, pappu, perugu, and avakay. </p>"]
     },
     Faith: {
-        startX: 100, startY: 565,
+        startX: 140, startY: 505,
         x: 570, y: 395,
         connections: [],
         newConnections: ['Fear', 'Family', 'Power'],
@@ -131,14 +131,14 @@ const fillingColors = {
  * For example, the new connection from authenticity -> love has the caption "gives self".
  */
 const newConnectionCaptions = {
-    Authenticity: {"Love": "gives self", "Family": "fuels"},
+    Authenticity: {"Love": "encourages self", "Family": "fuels"},
     Power: {"Authenticity": "rooted in"},
     Courage: {"Sexuality": "to accept", "Authenticity": "enables", "Fear": "despite"},
     Fear: {"Shame": "encompasses"},
     Family: {},
     Love: {"Faith": "leads to", "Family": "leads to"},
     Shame: {},
-    Sexuality: {"Love": "lead"},
+    Sexuality: {"Love": "fosters"},
     Faith: {"Family": "leads to", "Fear": "to overcome", "Power": "is the foundation of"},
 }
 
@@ -186,7 +186,6 @@ function startExploration() {
         splash.style.display = 'none';
     }, 1000);
 
-    // enterConclusionPage();
     createWordWeb();
     document.querySelector('.reset-btn').style.opacity = '1';   
     document.querySelector('.credits-btn').style.opacity = '1';   
@@ -235,6 +234,7 @@ function openCredits() {
                 <p>Background designed by <a href="https://www.freepik.com/free-photo/abstract-textured-backgound_12073308.htm#fromView=keyword&page=1&position=0&uuid=237bb7bd-3f08-4cbd-a46f-34967f4b75c3&new_detail=true" target="_blank">freepik</a></p>
                 <p>Paper image by <a href="https://pngimg.com/image/7238" target="_blank">pngimg.com</a>, licensed under CC BY-NC 4.0.</p>
                 <p>Flower animation by Cher1e from <a href="https://tenor.com/view/simple-flower-gif-13146117 target="_blank">tenor</a></p>
+                <p>The form of 'On Shame' is inspired by <a href="https://www.newyorker.com/magazine/2024/06/10/this-living-amber-tamblyn-poem target="_blank">This Living by Amber Tamblyn</a></p>
                 <br>
                 <p>For more of Mallika's work, visit her <a href="https://www.mallikachennu.com" target="_blank">website</a>.</p>
             </div>
@@ -553,9 +553,6 @@ async function redrawWordAndConnections(word, isFillNode = false, colorToUpdate 
             setTimeout(() => {
                 if (node.textContent == word) {
                     node.textContent = data.newName;
-                    if (data.newName == 'Community') {
-                        node.style.fontSize = '28px'
-                    }
                 } else {
                     node.textContent = word;
                 }
@@ -592,11 +589,10 @@ async function redrawWordAndConnections(word, isFillNode = false, colorToUpdate 
                 caption.setAttribute("x", midX);
                 caption.setAttribute("y", midY);
                 caption.setAttribute("fill", greyHexCode);
-                caption.setAttribute("font-size", "12");
                 caption.setAttribute("text-anchor", "middle");
                 caption.setAttribute("alignment-baseline", "hanging");
                 caption.setAttribute("class", "caption");
-                // adjustCaptionExceptions(caption, word, connection);
+                adjustCaptionExceptions(caption, word, connection);
 
                 // Set caption text
                 caption.textContent = newConnectionCaptions[word][connection];
@@ -624,6 +620,12 @@ async function redrawWordAndConnections(word, isFillNode = false, colorToUpdate 
     await Promise.all([nameUpdatePromise, ...connectionPromises]);
 }
 
+function adjustCaptionExceptions(caption, word, connection) {
+    if (word == 'Authenticity' && connection == 'Love') {
+        caption.setAttribute("dx", "-1.8em");
+    }
+}
+
 /***
  * This function shows the writing excerpt for a corresponding word. 
  */
@@ -642,12 +644,6 @@ function showExcerpt(word, story) {
     // Create excerpt
     const excerpt = document.createElement('div');
     excerpt.className = 'excerpt';
-    // excerpt.innerHTML = `
-    //     <h2>${word}</h2>
-    //     <div class="excerpt-content">
-    //         <p>${story}</p>
-    //     </div>
-    // `;
 
     let index = 0;
 
