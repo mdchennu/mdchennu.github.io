@@ -1,0 +1,372 @@
+:root {
+    --greenHexCode: #97a13c;
+    --backgroundHexCode: #f7f7f7;
+    --greyHexCode: #6E6E6E;
+    --darkGreenBackgroundHexCode: #06402b;
+    /* --darkGreenBackgroundHexCode: black; */
+    --nodeFontSize: 30px;
+
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('green-bg.jpg');
+    /* background: var(--darkGreenBackgroundHexCode); */
+}
+
+#paper {
+    width: 825px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    z-index: -1;
+    /* animation: tilt 1s steps(2) infinite; */
+}
+
+/* @keyframes tilt {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0.5deg);
+    }
+} */
+
+
+#test {
+    width: 20%;
+    position: absolute;   /* Positions the image relative to the viewport */
+    bottom: 0px;         /* Aligns the image to the bottom of the viewport */
+    right: 80%;
+    z-index: -1;       /* Places the image behind other elements */
+    /* height: 500px; */
+  }
+  
+.reset-btn {
+    position: fixed;
+    top: 20px; /* Distance from the bottom of the page */
+    right: 35px;  /* Distance from the right of the page */
+    transition: opacity 1s ease;
+    opacity: 0;
+}
+
+.credits {
+    display: none;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.credits-btn {
+    position: fixed;
+    top: 65px; /* Distance from the bottom of the page */
+    right: 37px;  /* Distance from the right of the page */
+    transition: opacity 1s ease;
+    opacity: 0;
+}
+
+.reset-btn:hover {
+    color: #3b614a;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: "Grape Nuts", serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    font-family: "Grape Nuts", serif;
+}
+/**
+ * Splash Screen
+*/
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    /* background: var(--darkGreenBackgroundHexCode); */
+    background-image: url('green-bg.jpg');
+    opacity: 1;
+    transition: opacity 3s ease;
+}
+
+.splash-content {
+    max-width: 550px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 100px;
+    box-shadow: 3px 5px 2px;
+    opacity: 0;
+    transition: opacity 3s ease;
+}
+
+#authorText {
+    opacity: 0;
+    transition: opacity 3s ease;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 15px;
+}
+
+.caption {
+    font-family: "Ovo", serif;
+}
+/**
+ * Buttons
+*/
+button {
+    background: none;
+    color: #b0b0b0;
+    border-color: #b0b0b0;
+    margin-top: 10px;
+    transform: scale(1.5); /* Makes the button 2x larger */
+    font-family: "Ovo", serif;
+}
+
+button:hover {
+    background: #b0b0b0;
+    border-color: #b0b0b0;
+    color: #3b614a;
+}
+
+.explore-btn {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: white;
+    margin-top: 40px;
+
+}
+.explore-btn:hover {
+    background: white;
+    border-color: white;
+    color: #3b614a;
+}
+
+/**
+ * Word Web
+*/
+.word-web {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    transition: opacity 1s ease;
+}
+
+.word-node {
+    position: absolute;
+    padding: 10px 20px;
+    border: 1px solid var(--greyHexCode);
+    color: var(--greyHexCode);
+    cursor: pointer;
+    background-color: var(--backgroundHexCode);
+    opacity: 1;
+    transition: background 1.5s ease, 
+            border-color 1.5s ease,
+            color 1.5s ease,
+            left 3s ease-in-out,
+            top 3s ease-in-out;
+    transition-delay: 1s; /* Add a 2-second delay before the transition starts */
+    font-family: "Grape Nuts", serif;
+    font-size: var(--nodeFontSize);
+}
+
+#instruction {
+    position: absolute;
+    /* left: 320px; */
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+
+    font-size: 32px;
+    transition: opacity 1s;
+    opacity: 0;
+    display: block;
+    color: white;
+    font-family: "Ovo", serif;
+}
+
+#next-btn {
+    position: absolute;
+    bottom: 30px;
+    transition: opacity 2s;
+    opacity: 0;
+    display: block;
+}
+
+.your-turn-btn {
+    display: block;             /* Makes the button a block element */
+    margin-left: auto;          /* Automatically adds left margin */
+    margin-right: auto;         /* Automatically adds right margin */
+    margin-top: 40px;
+}
+
+.word-node.newVersion {
+    background: var(--greenHexCode);
+    border-color: var(--greenHexCode);
+    color: white;
+}
+
+.fill-node {
+    position: absolute;
+    padding: 10px 20px;
+    border: 1px solid var(--greyHexCode);
+    border-radius: 50%;
+    color: var(--greyHexCode);
+    transition: all 0.3s ease;
+    background-color: var(--backgroundHexCode);
+    opacity: 1;
+    transition: border-width 7s,
+                border-color 7s ease,
+                color 0.5s ease,
+                left 3s ease-in-out,
+                top 3s ease-in-out,
+                background 5s ease-in-out;
+    transition-delay: 1s; /* Add a 2-second delay before the transition starts */
+    background: linear-gradient(to right, green 0%, var(--backgroundHexCode) 0%);
+    font-family: "Grape Nuts", serif;
+    font-size: var(--nodeFontSize);
+    animation: gradient 10s ease infinite;
+
+}
+
+/**
+ * excerpt
+*/
+.excerpt {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* max-height: 90vh; */
+    /* overflow-y: auto; */
+    z-index: 1000;
+    border-radius: 10px;
+    transition: opacity 2s ease;
+    opacity: 0;
+}
+
+.excerpt-content {
+    width: 750px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.credits-close {
+    position: fixed;
+    bottom: 30px;
+    transition: opacity 2s ease;
+    opacity: 0;
+}
+
+.excerpt-close, .next-chunk-btn {
+    position: fixed;
+    bottom: 15px;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.back-chunk-btn {
+    position: fixed;
+    bottom: 55px;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+-credits-close, .excerpt-close:hover, .next-chunk-btn:hover {
+    color: #3b614a;
+}
+
+
+.bigItalics {
+    font-size: 22px;
+}
+
+.smallItalics {
+    font-size: 15px;
+}
+
+.splash-content p, ol {
+    color: white;
+    font-family: "Ovo", serif;
+}
+
+ol {
+    list-style-position: inside;  /* Ensures numbers are inside the list item box */
+    text-align: center;          /* Centers the list items horizontally */
+  }
+  
+  li {
+    text-align: left;            /* Keeps the text aligned to the left within the item */
+  }
+  
+.excerpt p {
+    line-height: 1.1;
+    font-size: 18px;
+    text-align: left;
+    /* column-count: 2;
+    column-gap: 20px; */
+}
+
+p {
+    font-family: "Ovo", serif;
+}
+
+#overlay {
+    transition: opacity 5s ease;
+}
+
+  /* Style the container for images */
+  #imageContainer {
+    display: flex; /* Display images side by side */
+    justify-content: center; /* Center the images horizontally */
+    gap: 10px; /* Space between images */
+    margin-bottom: 20px; /* Space between images and text */
+    margin-top: 20px;
+  }
+
+  /* Style for the images */
+  #beforeImage, #afterImage {
+    width: 500px; /* Fixed width for both images */
+    height: auto;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  #conclusionScreen {
+    margin-right: 15vw;
+    margin-left: 15vw;
+    display: none;
+    opacity: 0;
+    transition: opacity 4s ease;
+  }
+
+  #flowerGif {
+    width: 200px;
+    margin-bottom: 10px;
+  }

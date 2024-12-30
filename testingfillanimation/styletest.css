@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 200px;
+  height: 300px;
+  border: 2px solid #000;
+  position: relative;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.fill {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #3498db;
+  transition: height 1s ease;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
