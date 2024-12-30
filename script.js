@@ -186,10 +186,10 @@ function startExploration() {
         splash.style.display = 'none';
     }, 1000);
 
-    enterConclusionPage();
-    // createWordWeb();
-    // document.querySelector('.reset-btn').style.opacity = '1';   
-    // document.querySelector('.credits-btn').style.opacity = '1';   
+    // enterConclusionPage();
+    createWordWeb();
+    document.querySelector('.reset-btn').style.opacity = '1';   
+    document.querySelector('.credits-btn').style.opacity = '1';   
 }
 
 function closeCredits() {
