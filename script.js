@@ -252,7 +252,7 @@ function openCredits() {
         creditsCloseBtn.className = 'credits-close';
 
         // Set the button text
-        creditsCloseBtn.textContent = "BACK TO WORD WEB →";
+        creditsCloseBtn.textContent = "← BACK TO WORD WEB";
 
         // Add the onclick event handler
         creditsCloseBtn.onclick = closeCredits;
