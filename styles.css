@@ -140,6 +140,12 @@ h2 {
     font-size: var(--tinyFontSize);
 }
 
+  @media (min-height: 3000px) {
+    #authorText {
+      display: none;
+    }
+  }
+
 .caption {
     font-family: "Ovo", serif;
 }
