@@ -9,7 +9,7 @@
     --smallItalicsFontSize: 13.5px; /* 15px * 0.9 */
     --tinyFontSize: 13.5px;      /* 15px * 0.9 */
     --instructionFontSize: 28.8px; /* 32px * 0.9 */
-    --excerptFontSize: 16.2px;      /* 18px * 0.9 */
+    --excerptFontSize: 16px;      /* 18px * 0.9 */
     --captionFontSize: 10.8px;   /* 12px * 0.9 */
     --introFontSize: 14.5px;
   }
@@ -58,7 +58,7 @@
   
 .reset-btn {
     position: fixed;
-    top: 20px; /* Distance from the bottom of the page */
+    top: 10px; /* Distance from the bottom of the page */
     right: 35px;  /* Distance from the right of the page */
     transition: opacity 1s ease;
     opacity: 0;
@@ -73,7 +73,7 @@
 
 .credits-btn {
     position: fixed;
-    top: 65px; /* Distance from the bottom of the page */
+    top: 55px; /* Distance from the bottom of the page */
     right: 37px;  /* Distance from the right of the page */
     transition: opacity 1s ease;
     opacity: 0;
@@ -277,9 +277,9 @@ button:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    padding: 10px;
 
     z-index: 1000;
-    border-radius: 10px;
     transition: opacity 2s ease;
     opacity: 0;
 }
@@ -289,6 +289,9 @@ button:hover {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    line-height: 1.1;
+    font-size: var(--excerptFontSize);
+    text-align: left;
 }
 
 .credits-close {
@@ -299,15 +302,26 @@ button:hover {
 }
 
 .excerpt-close, .next-chunk-btn {
-    position: fixed;
-    bottom: 15px;
     opacity: 0;
     transition: opacity 2s ease;
 }
 
+.button-container {
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribute buttons evenly */
+    align-items: center;           /* Align buttons vertically */
+    gap: 40px;                     /* Add space between buttons */
+    position: absolute
+}
+
+.chunk-indicator {
+    text-align: center;
+    font-weight: bold;
+}
+
+
 .back-chunk-btn {
-    position: fixed;
-    bottom: 55px;
     opacity: 0;
     transition: opacity 2s ease;
 }
@@ -339,12 +353,6 @@ ol {
   li {
     text-align: left;            /* Keeps the text aligned to the left within the item */
   }
-  
-.excerpt p {
-    line-height: 1.1;
-    font-size: var(--excerptFontSize);
-    text-align: left;
-}
 
 .conclusion-screen p {
     color: white;
