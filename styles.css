@@ -86,8 +86,7 @@ h1 {
     font-size: var(--headerFontSize);
     font-family: "Grape Nuts", serif;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 36px;
+    margin: 0;
 }
 
 h2 {
@@ -111,22 +110,25 @@ h2 {
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    /* background: var(--darkGreenBackgroundHexCode); */
     background-image: url('green-bg.jpg');
     opacity: 1;
     transition: opacity 3s ease;
 }
 
 .splash-content {
-    width: 480px;
-    height: 60%;
-    padding: 70px;
+    position: relative;
+    width: 450px;
+    height: 430px;
+    padding: 80px;
     text-align: center;
     border: 2px solid white;
     border-radius: 50%;
     box-shadow: 3px 5px 2px;
     opacity: 0;
     transition: opacity 3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #authorText {
@@ -164,7 +166,6 @@ button:hover {
     color: white;
     font-weight: bold;
     border-color: white;
-    margin-top: 36px;
 
 }
 .explore-btn:hover {
@@ -393,5 +394,4 @@ p {
 
   #flowerGif {
     width: 180px;
-    margin-bottom: 9px;
 }
