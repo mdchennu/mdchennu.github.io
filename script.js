@@ -160,7 +160,6 @@ let lastClickedWord = "";
 let nextButtonActivated = false;
 
 const instructions = ["Click on a box.", "Choose another box.", "Keep clicking."]
-// const instructionLeftValues = ['320px', '275px', '347px'];
 
 let curInstructionNum = 0;
 
